@@ -11,25 +11,32 @@ p
     color:purple;
     font-family: cursive;
     font-size:150%;
-    border:solid powderblue;
+    /*border:solid powderblue;*/
     padding:1px;
-    margin:10px;
+    margin:5 px;
+    
+}
+p::first-letter{
+    color:teal;
+    font-size: xx-large;
 }
 a:link {
     color:purple;
     background-color:transparent;
     text-decoration:underline;
+    font-family:cursive;
 }
 a:visited
 {
     color:darkcyan;
     background-color:transparent;
     text-decoration:underline;
+    font-family:cursive;
 }
 
 h2
 {
-    border: solid powderblue;
+   /* border: solid powderblue;*/
     font-family:cursive;
     font-size:150%;
     padding:1px;
@@ -38,7 +45,10 @@ h2
 }
 
 table , th, td {
-    border:1px solid cadetblue;
+    border:1px solid black;
+    text-align:center;
+    background-color:cadetblue;
+    opacity:0.8;
 }
 #t01 {
     width:100%;
@@ -47,10 +57,43 @@ table , th, td {
 th{
     background-color:cadetblue;
     height:50px;
-    text-align:left;
+    /*text-align:left;*/
     padding:15px;
 }
 td{
 height:50px;
 padding:15px;
+}
+
+ul{
+
+    /*list-style-type : circle;*/
+    background :cadetblue;
+    padding: 20px;
+    opacity:0.3;
+   /* margin-left: 600px;*/
+   /* margin-right:500px;*/
+
+}
+ul li
+{
+    background:white;
+   /* padding: 5px;*/
+    margin:5px;
+}
+h1
+{
+    opacity:0.6;
+}
+img
+{
+    opacity:0.6;
+}
+caption
+{
+    font-family: monospace;
+    font-size: xx-large;
+    color:cadetblue;
+    border:solid cadetblue;
+    background-color:black;
 }
