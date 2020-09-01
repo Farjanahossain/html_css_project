@@ -70,7 +70,7 @@ ul{
     /*list-style-type : circle;*/
     background :cadetblue;
     padding: 20px;
-    opacity:0.3;
+    opacity:0.8;
    /* margin-left: 600px;*/
    /* margin-right:500px;*/
 
@@ -96,4 +96,34 @@ caption
     color:cadetblue;
     border:solid cadetblue;
     background-color:black;
+}
+
+div.b{
+    background-image: url("images/catland2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.a{
+    background-image: url("images/scatgif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0vmax;
+    
+
+}
+span{
+    color:cadetblue;
+    border:1px solid cadetblue;
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+#B1
+{
+    border:1px solid cadetblue;
+    text-align: center;
 }
