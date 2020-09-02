@@ -17,14 +17,29 @@
     <img src ="images/msggif.gif" style="float:right;width:42px;height:42px">
 </a><br></h1>
 <hr>
+<!--javascript-->
+<h3 id="time"></h3>
+<center><button onclick="document.getElementById('time').innerHTML = Date()">
+Click me to display Date and Time.</button></center>
+<script>
+    document.getElementById("time").style.textAlign ="center";
+    document.getElementById("time").style.color = "cadetblue";
+    document.getElementById("time").style.backgroundColor = "purple";
+</script>
+
+
+
+<hr>
 <div style="border:1px solid cadetblue;">
 <h2 id="B1">Cat Zone cafe</h2>
-<center><button onclick="displayResult()">or</button></center>
+<!--javascript-->
+<center><button onclick= "display()">or</button></center>
 <script>
-    function displayResult(){
+    function display () {
         document.getElementById("B1").innerHTML="cat restaurant dhaka";
     }
 </script>
+
 <ul>
     <li>Meow Carnival - Cat Cafe</li>
     <li>Capawcino Cat Cafe</li>
@@ -128,6 +143,39 @@ proper nutrition; grooming; and protection from household hazards.</p>
 <a href="#B1">
     <img src ="images/pizzagif.gif" style="width:42px;height:42px;">
 </a></p><br>
+
+<iframe src="https://en.wikipedia.org/wiki/Cat" style="height:500px;width:1325px;border:3px solid cadetblue" title="Iframe Example"></iframe>
+ <!--javascript--> 
+
+<script>
+function emo(em) {
+    var pic;
+        if ( em == 1) {
+            pic = "images/sadcatgif.gif"
+    
+        }else{
+            pic = "images/angrycatgif.gif"
+        } 
+        document.getElementById('catImage').src = pic ;
+
+}
+</script>
+<img id ="catImage" src="images/sadcatgif.gif" width="1325" height="300">
+
+<p>
+    <center><button type ="button" onclick="emo(1)">sad cat</button>
+    <button type="button" onclick="emo(2)">angry cat</button></center>
+</p>
+
+
+<!--javascript-->
+<h4 id="demo"></h4>
+<script>
+document.getElementById("demo").innerHTML = "Thanks!";
+document.getElementById("demo").style.color ="purple";
+document.getElementById("demo").style.backgroundColor ="cadetblue";
+document.getElementById("demo").style.textAlign = "center";
+</script> 
 </body>
 
 </html>
